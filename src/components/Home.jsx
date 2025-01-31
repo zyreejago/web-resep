@@ -1,33 +1,33 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const categories = [
     {
-      name: 'Chinese Food',
-      image: 'https://images.unsplash.com/photo-1525755662778-989d0524087e',
-      path: '/category/chinese'
+      name: "Chinese Food",
+      image: "https://images.unsplash.com/photo-1525755662778-989d0524087e",
+      path: "/category/chinese",
     },
     {
-      name: 'Japanese Food',
-      image: 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c',
-      path: '/category/japanese'
+      name: "Japanese Food",
+      image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c",
+      path: "/category/japanese",
     },
     {
-      name: 'Western Food',
-      image: 'https://images.unsplash.com/photo-1432139509613-5c4255815697',
-      path: '/category/western'
+      name: "Western Food",
+      image: "https://images.unsplash.com/photo-1432139509613-5c4255815697",
+      path: "/category/western",
     },
     {
-      name: 'Indonesian Food',
-      image: 'https://images.unsplash.com/photo-1562607635-4608ff48a859',
-      path: '/category/indonesian'
+      name: "Indonesian Food",
+      image: "https://images.unsplash.com/photo-1562607635-4608ff48a859",
+      path: "/category/indonesian",
     },
     {
-      name: 'Korean Food',
-      image: 'https://images.unsplash.com/photo-1498654896293-37aacf113fd9',
-      path: '/category/korean'
-    }
-  ]
+      name: "Korean Food",
+      image: "https://images.unsplash.com/photo-1498654896293-37aacf113fd9",
+      path: "/category/korean",
+    },
+  ];
 
   return (
     <div className="max-w-6xl mx-auto">
@@ -59,5 +59,5 @@ export default function Home() {
         ))}
       </div>
     </div>
-  )
+  );
 }

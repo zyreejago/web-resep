@@ -8,25 +8,202 @@ const createRecipe = (data) => ({
 export const recipes = {
   chinese: [
     createRecipe({
-      name: "Kung Pao Chicken",
-      image: "https://images.unsplash.com/photo-1525755662778-989d0524087e",
+      name: "Fuyunghai",
+      image:
+        "https://cdn.idntimes.com/content-images/community/2023/06/screenshot-20230627-204421-instagram-4cd4a6c46b4cb94ffb82593cf2396e33.jpg",
       category: "chinese",
       ingredients: [
-        "500g chicken breast, cubed",
-        "1/2 cup peanuts",
-        "2 cloves garlic",
-        "1 inch ginger",
-        "2 green onions",
-        "dried red chilies",
-        "soy sauce",
-        "vinegar",
+        "5 butir telur, kocok lepas",
+        "3/4 sdt garam",
+        "1/4 sdt merica bubuk",
+        "1/4 wortel, iris halus",
+        "100 gram kol, iris halus",
+        "2 batang seledri, cincang",
+        "Udang atau ayam secukupnya",
+        "2 sdm margarin",
+        "50 gram saus tomat",
+        "2 cm jahe, iris panjang",
+        "1/2 sdt gula pasir",
+        "1 buah cabai merah, buang biji, iris serong tipis",
+        "1/4 sdt garam",
+        "2 sdt tepung sagu, larutkan dengan 2 sdm air",
+        "200 ml air kaldu",
+        "1/4 sdt cuka masak",
       ],
       instructions: [
-        "Cut chicken into cubes",
-        "Stir-fry chicken until golden",
-        "Add peanuts and dried chilies",
-        "Add sauce mixture",
-        "Garnish with green onions",
+        "Campurkan telur, garam, merica, wortel, kol, seledri, dan udang/ayam dalam satu wadah.",
+        "Panaskan minyak dalam wajan datar. Tuangkan adonan fuyunghai dan masak hingga bagian bawah kecokelatan.",
+        "Balikkan fuyunghai dan masak sisi lainnya hingga matang.",
+        "Untuk saus, tumis bawang putih dan jahe dalam margarin hingga harum. Tambahkan cabai dan aduk hingga layu.",
+        "Masukkan saus tomat, gula pasir, garam, dan kaldu. Aduk hingga mendidih.",
+        "Tambahkan larutan tepung sagu untuk mengentalkan saus. Aduk rata dan sajikan fuyunghai dengan saus di atasnya.",
+      ],
+    }),
+    createRecipe({
+      name: "Mie Goreng Shanghai",
+      image:
+        "https://media.istockphoto.com/id/1056751534/id/foto/shanghai-chow-mein-yang-bergaya-tionghoa-mengaduk-mie-goreng.jpg?s=612x612&w=0&k=20&c=kgsYIWOb-tVh2QORAugsk5BR0EECbA0CDabptlFXhAw=",
+      category: "chinese",
+      ingredients: [
+        "100 gr daging sapi, potong kecil",
+        "300 gr mie telur",
+        "10 gr jamur shitake, iris tipis",
+        "200 gr sayur bok choy",
+        "5 siung bawang putih, cincang halus",
+        "1 sdt minyak wijen",
+        "2 sdt kecap manis",
+        "1 sdt saus tiram",
+        "1/2 sdt cuka",
+      ],
+      instructions: [
+        "Rebus mie telur hingga setengah matang dan tiriskan.",
+        "Panaskan minyak wijen dalam wajan besar. Tumis bawang putih hingga harum.",
+        "Masukkan daging sapi dan jamur shitake, masak hingga daging berubah warna.",
+        "Tambahkan sayur bok choy dan tumis hingga layu.",
+        "Masukkan mie yang telah direbus ke dalam wajan bersama kecap manis, saus tiram, dan cuka. Aduk rata hingga semua bahan tercampur.",
+        "Sajikan hangat.",
+      ],
+    }),
+    createRecipe({
+      name: "Capcay Goreng Bakso",
+      image:
+        "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/03/28/2440891937.png",
+      category: "chinese",
+      ingredients: [
+        "Bakso sapi secukupnya (potong sesuai selera)",
+        "Kembang kol secukupnya (potong kecil)",
+        "Wortel secukupnya (iris tipis)",
+        "Brokoli secukupnya (potong kecil)",
+        "Bawang putih secukupnya (cincang halus)",
+      ],
+      instructions: [
+        "Panaskan minyak dalam wajan besar. Tumis bawang putih hingga harum.",
+        "Masukkan bakso sapi dan tumis hingga setengah matang.",
+        "Tambahkan wortel, kembang kol, dan brokoli ke dalam wajan. Aduk rata.",
+        "Tambahkan bumbu sesuai selera (garam dan merica) lalu masak hingga sayuran matang tetapi masih renyah.",
+        "Angkat dan sajikan capcay goreng bakso selagi hangat.",
+      ],
+    }),
+    createRecipe({
+      name: "Ayam Goreng Mentega",
+      image:
+        "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01h9q0yah3hezvkf0910xnpy7s.jpg",
+      category: "chinese",
+      ingredients: [
+        "Potongan ayam (paha atau dada) secukupnya",
+        "Bawang bombay (cincang halus) secukupnya",
+        "Kecap manis secukupnya",
+        "Garam dan merica secukupnya",
+      ],
+      instructions: [
+        "Panaskan minyak dalam wajan besar. Tumis bawang bombay hingga harum.",
+        "Masukkan potongan ayam dan bumbui dengan garam serta merica.",
+        "Masak ayam hingga kecokelatan dan matang sempurna.",
+        "Tambahkan kecap manis sesuai selera dan aduk rata.",
+        "Angkat dan sajikan.",
+      ],
+    }),
+    createRecipe({
+      name: "Ayam Kungpao",
+      image:
+        "https://cdn.idntimes.com/content-images/community/2023/11/inshot-20231102-133935460-e19c76cf1b28908665001625bb727ae6-33f5322fd51c5f778eb104565ed5ed26_600x400.jpg",
+      category: "chinese",
+      ingredients: [
+        "Fillet ayam: 250 gr (potong dadu)",
+        "Kacang mede: segenggam",
+        "Bawang putih: 3 siung (cincang halus)",
+        "Cabai kering: beberapa buah",
+      ],
+      instructions: [
+        "Marinasi fillet ayam dengan sedikit garam dan merica selama sekitar 15 menit.",
+        "Panaskan minyak dalam wajan besar, tumis bawang putih dan cabai kering hingga harum.",
+        "Masukkan potongan ayam dan masak hingga berubah warna.",
+        "Tambahkan kacang mede dan bumbu sesuai selera (kecap manis atau saus tiram).",
+        "Aduk rata sampai semua bahan tercampur baik lalu angkat.",
+      ],
+    }),
+    createRecipe({
+      name: "Sapo Tahu",
+      image:
+        "https://cdn.idntimes.com/content-images/community/2024/09/1920-homemade-sapo-tofu-or-sapo-tofu-is-indonesian-food-which-is-adapted-from-chinese-food-made-from-tofu-mushroom-seafood-and-other-vegetables-5f33a6106b7b2abdfec00ff311918826-cb4b4b833f2a911177c3153aafcd9f5c_600x400.jpeg",
+      category: "chinese",
+      ingredients: [
+        "Tahu sutra: satu kotak (potong dadu)",
+        "Sayuran campur (jamur shiitake, brokoli): secukupnya",
+        "Daging ayam atau udang: secukupnya",
+      ],
+      instructions: [
+        "Panaskan sedikit minyak dalam panci besar, tumis sayuran hingga layu.",
+        "Tambahkan daging ayam atau udang lalu masak sampai matang.",
+        "Masukkan tahu sutra dengan hati-hati agar tidak hancur.",
+        "Tambahkan kaldu atau air secukupnya serta bumbu sesuai selera lalu masak sampai mendidih.",
+        "Sajikan panas.",
+      ],
+    }),
+    createRecipe({
+      name: "Dumpling (Wonton)",
+      image:
+        "https://images.unsplash.com/photo-1666278170520-f4fdd96292ea?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdvbnRvbnxlbnwwfHwwfHx8MA%3D%3D",
+      category: "chinese",
+      ingredients: [
+        "Tepung terigu: secukupnya",
+        "Air hangat: secukupnya",
+        "Daging ayam giling: segenggam",
+        "Daun bawang: cincang halus",
+      ],
+      instructions: [
+        "Campurkan tepung terigu dengan air hangat untuk membuat adonan kulit dumpling yang elastis.",
+        "Ambil sejumput adonan kulit, pipihkan lalu isi dengan campuran daging ayam giling dan daun bawang.",
+        "Lipat kulit dumpling menjadi bentuk setengah lingkaran lalu rapatkan tepinya.",
+        "Kukus dumpling selama sekitar 15 menit atau sampai matang.",
+      ],
+    }),
+    createRecipe({
+      name: "Xiaolongbao (Soup Dumplings)",
+      image:
+        "https://cdn.tatlerasia.com/tatlerasia/i/2022/03/03091747-abhishek-sanwa-limbu-lr559dcst70-unsplash_cover_1500x1001.jpg",
+      category: "chinese",
+      ingredients: [
+        "Tepung terigu: secukupnya",
+        "Daging babi cincang: segenggam",
+        "Kaldu: cukup untuk membuat isian berkuah",
+      ],
+      instructions: [
+        "Buat adonan kulit dari tepung terigu yang dicampur air hangat sampai elastis.",
+        "Ambil sejumput adonan kulit yang pipih kemudian isi dengan campuran daging babi cincang yang sudah dicampur kaldu.",
+        "Bentuk bulat lalu kukus dalam keranjang bambu selama sekitar 15 menit.",
+      ],
+    }),
+    createRecipe({
+      name: "Hot Pot",
+      image:
+        "https://images.unsplash.com/photo-1621916805571-2e804f82170c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdCUyMHBvdHxlbnwwfHwwfHx8MA%3D%3D",
+      category: "chinese",
+      ingredients: [
+        "Daging sapi tipis: secukupnya",
+        "Sayuran segar (bok choy): secukupnya",
+        "Tahu: potong dadu",
+      ],
+      instructions: [
+        "Siapkan kaldu dalam panci besar di atas kompor atau kompor portable di meja makan.",
+        "Ketika kaldu mendidih, masukkan potongan daging sapi tipis ke dalam kaldu panas sampai matang.",
+        "Tambahkan sayuran segar dan tahu ke dalam kaldu sesuai selera.",
+      ],
+    }),
+    createRecipe({
+      name: "Tahu Cabe Garam",
+      image:
+        "https://www.sasa.co.id/medias/page_medias/resep_tahu_cabe_garam.jpg",
+      category: "chinese",
+      ingredients: [
+        "Tahu putih: satu kotak",
+        "Bawang putih: beberapa siung (cincang halus)",
+        "Cabai rawit: sesuai selera",
+      ],
+      instructions: [
+        "Goreng tahu sampai kecokelatan lalu tiriskan.",
+        "Dalam wajan terpisah, tumis bawang putih dan cabai rawit sampai harum.",
+        "Campurkan tahu goreng ke dalam wajan bersama bumbu yang ditumis tadi lalu aduk rata sebelum disajikan.",
       ],
     }),
     // Add more Chinese recipes here...
